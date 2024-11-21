@@ -16,9 +16,9 @@ export function Counter(){
     }
 
     return (
-        <main className="vh-100 d-flex flex-column align-items-center gap-4 m-auto justify-content-center my-4 w-75">
+        <main className="container my-4 min-vh-100">
             <h1>Bem vindo a aplicação de incremento!</h1>
-            <div className="d-flex align-items-center gap-4">
+            <div className="d-flex justify-content-center align-items-center gap-4">
                 <button className="btn btn-primary" onClick={handleDecrement}>-</button>
                 <span>{number}</span>
                 <button className="btn btn-primary" onClick={handleIncrement}>+</button>   
