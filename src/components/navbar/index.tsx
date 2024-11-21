@@ -14,7 +14,7 @@ export function NavBar() {
             <NavLink className='d-flex justify-content-center align-items-center bg-primary text-bg-primary rounded text-center text-decoration-none' to="/counter">
               Contador Simples
             </NavLink>
-            <NavLink className='d-flex justify-content-center align-items-center bg-primary text-bg-primary rounded text-center text-decoration-none' to="/">Alteração de Cor de Fundo</NavLink>
+            <NavLink className='d-flex justify-content-center align-items-center bg-primary text-bg-primary rounded text-center text-decoration-none' to="/background">Alteração de Cor de Fundo</NavLink>
             <NavLink className='d-flex justify-content-center align-items-center bg-primary text-bg-primary rounded text-center text-decoration-none' to="/">Lista de Tarefas</NavLink>
             <NavLink className='d-flex justify-content-center align-items-center bg-primary text-bg-primary rounded text-center text-decoration-none' to="/">Temporizador</NavLink>
             <NavLink className='d-flex justify-content-center align-items-center bg-primary text-bg-primary rounded text-center text-decoration-none' to="/">Filtro</NavLink>
